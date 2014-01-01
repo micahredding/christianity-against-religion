@@ -23,18 +23,30 @@
     <!-- Add your site or application content here -->
     <header>
       <div class="inner">
-        this is the header
+        <h1><em>Christianity <em>Against</em> Religion</em></h1>
+        <div>What if Christianity was originally the rejection of organized religion, and the embrace of life, God, and others outside the bounds of ritual and hierarchy?</div>
       </div>
     </header>
-    <div id="hero"><div class="inner">
-        <p>this is the hero text</p>
-    </div></div>
+<!--     <div id="hero"><div class="inner">
+        <h1>Christianity, stripped to its philosophical core</h1>
+    </div></div> -->
     <div id="main"><div class="inner">
-      <h1>This is the title</h1>
-      <p>This is text</p>
+      <p>Christianity at its core is non-ecclesiastical, non-institutional, and non-ritualistic. It is a fundamentally different approach to relationship with God, outside the bounds of religion as it was practiced in the ancient world, and as it continues to be practiced now.</p>
+
+      <p>Ideas here are drawn from the New Testament, and build upon the insights of the Restoration Movement, the Anabaptists, and the broad stream of historic Christian orthodoxy.</p>
+
+      <p>Read <em><a href="http://micahredding.com/blog/2011/10/02/christianity-against-religion">Christianity Against Religion: an Introduction</a></em>.</p><br />
+
+      <h3>Essays on Non-Religious Christianity</h3>
+      <div class="essays">
+      <!--#include virtual="rss2html/rss2html.php" -->
+      </div>
+
+<!--       <h3>Other Resources</h3> -->
     </div></div>
     <footer><div class="inner">
-      this is the footer
+      <a href="http://brickcaster.com/christianity">The Podcast</a>
+      <a href="http://christianityagainstreligion.com/group">More Essays on Christianity</a>
     </div></footer>
 
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
