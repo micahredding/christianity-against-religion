@@ -17,6 +17,9 @@ body {color:#000;}
 #page #main {
   margin:0 2em;
 }
+#page #main #main-content {
+  margin-bottom: 2em;
+}
 @media(min-width: 1000px) {
   #page #main #main-content {
     float:left;
