@@ -299,6 +299,9 @@ header {
 #main h1, #main h2, #main h3 {
   margin-bottom: 0.7em; }
 
+#main .inner p {
+  font-size: 1.5em; }
+
 .essays a {
   display: block; }
 
