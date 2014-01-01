@@ -20,6 +20,14 @@ body {color:#000;}
 #page #main #main-content {
   margin-bottom: 2em;
 }
+h1 {
+  font-size: 3em;
+}
+@media (min-width: 500px) {
+  h1 {
+    font-size: 4em;
+  }
+}
 @media(min-width: 1000px) {
   #page #main #main-content {
     float:left;
@@ -38,10 +46,13 @@ body {color:#000;}
     float:left;
     max-width:45%;
   }
+  h1 {
+    font-size:80px;
+  }
 }
 
 #header img {display:inline-block; float:left;}
-h1 {font-size:80px;}
+
 h1, h2, h3, h4 {font-family:Georgia, Times New Roman, serif; font-weight:normal; line-height:1em; color:#222; margin:0px; }
 h2 {
   margin: 0 0 2em 0;
