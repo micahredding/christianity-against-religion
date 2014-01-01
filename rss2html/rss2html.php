@@ -26,7 +26,7 @@ $useFopenURL = 0;
 // If XLMFILE is passed as part of the URL, XMLFILE=, then it will be used
 // otherwise the the file below is used.
 //$XMLfilename = "http://examlple.com/sample.xml";
-$XMLfilename = "http://micahredding.com/blog/theology/feed/aggregator";
+$XMLfilename = "http://micahredding.com/blog/christianity-against-religion/feed/aggregator";
 
 //
 // If TEMPLATE is passed as part of the URL. TEMPLATE=, then it will be used
@@ -94,10 +94,10 @@ $allowedFeedExtensions = Array(".xml", ".rss");
 $destinationEncoding = "UTF-8";
 
 //
-// Missing Encoding Default:  Some feeds do not specify the character set 
+// Missing Encoding Default:  Some feeds do not specify the character set
 // they are encoded in.  The XML specification states that if there is no
 // encoding specified the XML file, all RSS feeds are XML, must be encoded
-// in UTF-8, but experience has show differently.  This specifies the 
+// in UTF-8, but experience has show differently.  This specifies the
 // encoding that will be used for feeds that don't specify the encoding.
 //$missingEncodingDefault = "UTF-8";
 $missingEncodingDefault = "ISO-8859-1";
@@ -349,7 +349,7 @@ $escapeAmpInLinks = 1;
 // Allow displaying of the Creative Commons License URL
 //
 // Revision 2.28  2006/05/28 14:21:47  housley
-// Add additional capabilities to work with enclosures.  The 3 new fields are 
+// Add additional capabilities to work with enclosures.  The 3 new fields are
 // ~~~ItemEnclosureType~~~, ~~~ItemEnclosureLength~~~ and ~~~ItemEnclosureLengthFormatted~~~
 //
 // Revision 2.27  2006/05/27 19:27:45  housley
@@ -599,13 +599,13 @@ if (function_exists("FeedForAll_rss2html_CreateUniqueLink") === FALSE) {
   Function FeedForAll_rss2html_CreateUniqueLink($title, $description, $link, $guid, $XMLfilename, $itemTemplate) {
     GLOBAL $TEMPLATEfilename;
     $match = Array();
-    
+
     while (preg_match("/~~~ItemUniqueLinkWithTemplate=.*~~~/", $itemTemplate, $match) !== FALSE) {
       if ((count($match) == 0) || ($match[0] == "")) {
         // All done
         return $itemTemplate;
       }
-      
+
       $replace = "http://$_SERVER[SERVER_NAME]$_SERVER[SCRIPT_NAME]?XMLFILE=".FeedForAll_rss2html_encodeURL($XMLfilename)."&amp;TEMPLATE=".FeedForAll_rss2html_encodeURL($TEMPLATEfilename);
       $itemTemplate = FeedForAll_rss2html_str_replace($match[0], $replace, $itemTemplate);
     }
@@ -630,7 +630,7 @@ if (function_exists("FeedForAll_rss2html_UseUniqueLink") === FALSE) {
 if (function_exists("FeedForAll_rss2html_EscapeLink") === FALSE) {
   Function FeedForAll_rss2html_EscapeLink($link) {
     GLOBAL $escapeAmpInLinks;
-    
+
     if ((strstr($link, "://") !== FALSE) && $escapeAmpInLinks) {
       // In HTML a link with an & must be converted to &amp;
       // And for here without :// it is not a link, since relative
@@ -675,7 +675,7 @@ if (!isset($_REQUEST["buildURL"])) {
     $NoFutureItems = TRUE;
   }
 
-  
+
   if (isset($_REQUEST["XMLFILE"])) {
     if (stristr($_REQUEST["XMLFILE"], "file"."://")) {
       // Not allowed
@@ -880,7 +880,7 @@ if (!isset($_REQUEST["buildURL"])) {
       if (isset($debugLevel) && ($debugLevel >= 3)) {
         echo "DIAG: adding to items, count=".count($rss_parser->Items)."<br>\n";
       }
-      
+
       // The the maximum items requested
       if (strstr($template, "~~~FeedMaxItems=")) {
         // Limit the maximun number of items displayed
