@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Christianity against Religion</title>
+<style>
+body {background:#FFF center top; }
+body {font-family:Arial, Helvetica, sans-serif; font-size:24px;}
+body {color:#000;}
+#page { margin:20px; max-width:1460px;}
+
+#page #sidebar {margin:20px 30px 0 20px; width:250px; float:left; }
+#page #articles {margin:0px 20px 60px; width:700px; float:left;}
+
+a {text-decoration:none; text-transform:uppercase; font-weight:bold; color:#777; }
+a:hover {color:#000; background:#FFF;}
+a.buttons {padding:10px; border: 1px solid #666; margin:0px 0px 10px; display:block;} 
+a.buttons:hover {background:#EEE;}
+
+h1 {font-size:110px; font-family:Georgia, Times New Roman; font-weight:normal; line-height:1em; margin:10px 0px 50px; color:#222; }
+
+#articles a {display:block; text-transform:none; padding:10px;}
+<!-- #articles .description {font-style:italic; font-size:14px; color:#999; height:50px; overflow:hidden;} -->
+</style>
+
+
+
+
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=275866199116127";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="page">
+
+  <div id="sidebar">
+    <img src="anarchistcross_white_small3.jpg" style="margin:0 0 20px" />
+    <a class="buttons" href="/group">join discussion</a>
+    <a class="buttons" href="http://brickcaster.com/christianity">the podcast</a>
+    <br />
+    <div style="font-style:italic; color:#999; font-family: Times New Roman; font-size:18px;">
+      What if Christianity was originally the rejection of organized religion, and the embrace of life, God, and others outside the bounds of ritual and hierarchy?<br /><br /><br />
+    </div>
+    <div class="fb-like" data-href="http://christianityagainstreligion.com/" data-send="true" data-layout="button_count" data-width="250" data-show-faces="true"></div>
+  </div>
+
+  <div id="articles">
+    <h1>Christianity <br />Against <br />Religion</h1>
+      <!--#include virtual="/rss2html/rss2html.php" -->
+
+    <a class="buttons" href="http://micahredding.com/blog/theology">...Read More Articles</a>
+  </div>
+
+</div>
+</body>
+</html>

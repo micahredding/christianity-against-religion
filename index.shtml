@@ -4,23 +4,62 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
 <title>Christianity against Religion</title>
 <style>
-body {background:#FFF center top; }
-body {font-family:Arial, Helvetica, sans-serif; font-size:24px;}
+body {background:#FFF center top; margin:0px; padding:0px; }
+body {font-family:Arial, Helvetica, sans-serif; font-size:16px;}
 body {color:#000;}
-#page { margin:20px; max-width:1460px;}
+#page {
+  margin:2em auto;
+  max-width:1000px;
+}
+#page #header {
+  margin:0 2em;
+}
+#page #main {
+  margin:0 2em;
+}
+@media(min-width: 1000px) {
+  #page #main #main-content {
+    float:left;
+    width: 70%;
+  }
+  #page #main #articles {
+    float:left;
+    width: 30%;
+  }
+  #page .column-left {
+    float:left;
+    margin-right:5%;
+    max-width:45%;
+  }
+  #page .column-right {
+    float:left;
+    max-width:45%;
+  }
+}
 
-#page #sidebar {margin:20px 30px 0 20px; width:250px; float:left; }
-#page #articles {margin:0px 20px 60px; width:700px; float:left;}
+#header img {display:inline-block; float:left;}
+h1 {font-size:80px;}
+h1, h2, h3, h4 {font-family:Georgia, Times New Roman, serif; font-weight:normal; line-height:1em; color:#222; margin:0px; }
+h2 {
+  margin: 0 0 2em 0;
+}
+h3 {font-style:italic; color:#999; padding:10px;}
 
-a {text-decoration:none; text-transform:uppercase; font-weight:bold; color:#777; }
+.description {
+  clear: both;
+  font-style:italic;
+  color:#999;
+  font-family:Times New Roman, serif;
+  font-size:18px;
+}
+
+a {text-decoration:none; color:#777; }
 a:hover {color:#000; background:#FFF;}
-a.buttons {padding:10px; border: 1px solid #666; margin:0px 0px 10px; display:block;} 
+a.buttons {padding:10px; border: 1px solid #666; margin:0px 10px 10px; display:block; text-align:center;}
 a.buttons:hover {background:#EEE;}
-
-h1 {font-size:110px; font-family:Georgia, Times New Roman; font-weight:normal; line-height:1em; margin:10px 0px 50px; color:#222; }
-
+#articles a {font-size:18px;}
 #articles a {display:block; text-transform:none; padding:10px;}
-<!-- #articles .description {font-style:italic; font-size:14px; color:#999; height:50px; overflow:hidden;} -->
+
 </style>
 
 
@@ -39,24 +78,105 @@ h1 {font-size:110px; font-family:Georgia, Times New Roman; font-weight:normal; l
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div id="page">
-
-  <div id="sidebar">
-    <img src="anarchistcross_white_small3.jpg" style="margin:0 0 20px" />
-    <a class="buttons" href="/group">join discussion</a>
-    <a class="buttons" href="http://brickcaster.com/christianity">the podcast</a>
-    <br />
-    <div style="font-style:italic; color:#999; font-family: Times New Roman; font-size:18px;">
+  <div id="header">
+    <img src="anarchistcross_burn_280x175.jpg" /> <h1>Christianity Against Religion</h1>
+    <div class="description">
       What if Christianity was originally the rejection of organized religion, and the embrace of life, God, and others outside the bounds of ritual and hierarchy?<br /><br /><br />
     </div>
+  </div>
+  <div id="main">
+    <div id="main-content">
+
+    <h2>Read <em><a href="http://micahredding.com/blog/2011/10/02/christianity-against-religion">Christianity against religion: an Introduction</a></em></h2>
+
+
+    <div class="column-left">
+    <strong>Believing in God:</strong><br />
+    <a href="http://micahredding.com/blog/2012/02/13/existence-god">The Existence of God?</a><br />
+    <a href="http://micahredding.com/blog/2011/10/05/believe-or-dont-believe">Believe or Don't Believe</a><br />
+    <a href="http://micahredding.com/blog/2011/10/10/thoughts-science-and-religion">Thoughts on Science and Religion</a><br />
+    <br />
+
+    <strong>Personal:</strong><br />
+    <a href="http://micahredding.com/blog/2011/11/23/i-am-not-hurt">I am not hurt</a><br />
+    <a href="http://micahredding.com/blog/2011/12/01/i-am-orthodox">I am orthodox</a><br />
+    <a href="http://micahredding.com/blog/2008/11/09/christianity-in-my-life">Christianity in my life</a><br />
+    <a href="http://micahredding.com/blog/2011/12/19/imputed-righteousness-and-switching-tracks">Switching Tracks</a><br />
+    <a href="http://micahredding.com/blog/2011/12/23/imputed-righteousness-part-2">Switching Tracks 2</a><br />
+    <br />
+
+    <strong>Leaving Ritual:</strong><br />
+    <a href="http://micahredding.com/blog/2011/11/28/what-real">What is Real?</a><br />
+    <a href="http://micahredding.com/blog/2012/01/09/religion-practice">Religion is practice</a><br />
+    <a href="http://micahredding.com/blog/2011/10/14/thought-baptism">A thought on baptism</a><br />
+    <a href="http://micahredding.com/blog/2006/12/21/baptism-and-eschatology-and-70-ad">Baptism and 70 AD</a><br />
+    <a href="http://micahredding.com/blog/2011/10/02/christianity-against-religion">Christianity against religion</a><br />
+    <br />
+
+    <strong>Christianity as Anthropology:</strong><br />
+    <a href="http://micahredding.com/blog/2012/03/06/why-are-humans-evil">Why are humans evil?</a><br />
+    <a href="http://micahredding.com/blog/2012/02/10/deus-ex-machina">Deus Ex Machina</a><br />
+    <a href="http://micahredding.com/blog/2012/01/19/i-am-more-fundamentalist-you">I am more fundamentalist than you</a><br />
+    <a href="http://micahredding.com/blog/2011/12/25/peter-rollins-and-experiencing-god">Peter Rollins and Experiencing God</a><br />
+    <a href="http://micahredding.com/blog/2011/12/12/broken-world">A broken world?</a><br />
+    <br />
+    </div>
+
+    <div class="column-right">
+    <strong>Jesus:</strong><br />
+    <a href="http://micahredding.com/blog/2009/12/13/jesus-is-lord">Jesus is Lord</a><br />
+    <a href="http://micahredding.com/blog/2010/04/12/jesus-triumph-and-coronation">Jesus' triumph and coronation</a><br />
+    <a href="http://micahredding.com/blog/2011/07/07/jesus-identifies">Jesus identifies</a><br />
+    <a href="http://micahredding.com/blog/2007/01/05/did-jesus-create-the-world-or-did-god">Did Jesus create the world? Or did God?</a><br />
+    <a href="http://micahredding.com/blog/2007/12/17/two-views-of-jesus">Two views of Jesus</a><br />
+    <br />
+
+    <strong>Christianity in the modern world:</strong><br />
+    <a href="http://micahredding.com/blog/2009/12/28/jesus-movement">Jesus Movement</a><br />
+    <a href="http://micahredding.com/blog/2011/12/16/will-christianity-die-without-church">Will Christianity Die without Church?</a><br />
+    <a href="http://micahredding.com/blog/2011/11/21/christianity-reborn">Christianity Reborn</a><br />
+    <a href="http://micahredding.com/blog/2011/11/07/christianity-platform">Christianity is a platform</a><br />
+    <a href="http://micahredding.com/blog/2010/02/08/the-many-great-commissions">The Many and Great Commissions</a><br />
+    <a href="http://micahredding.com/blog/2010/01/27/kings-and-heroes">Kings and Heroes</a><br />
+    <a href="http://micahredding.com/blog/2010/01/05/science-fiction-and-jesus">Science Fiction and Jesus</a><br />
+    <a href="http://micahredding.com/blog/2008/07/20/god-does-not-belong-to-anyone">God does not belong to anyone</a><br />
+    <a href="http://micahredding.com/blog/2007/01/01/the-open-future-creators-with-god">The Open Future - Creators with God</a><br />
+    <br />
+
+    <strong>How to Read the Bible:</strong><br />
+    <a href="http://micahredding.com/blog/2007/12/20/proof-vs-the-bible">Proof vs The Bible</a><br />
+    <a href="http://micahredding.com/blog/2008/12/19/reading-the-bible-literally">Reading the Bible literally</a><br />
+    <a href="http://micahredding.com/blog/2008/11/27/interpreting-bible-basics">Interpreting the Bible: the basics</a><br />
+    <a href="http://micahredding.com/blog/2008/12/05/interpreting-bible-start">Interpreting the Bible: a start</a><br />
+    <a href="http://micahredding.com/blog/2006/12/26/the-simplicity-of-revelation-and-eschatology">The simplicity of Revelation and Eschatology</a><br />
+    <br />
+
+    <strong>Miscellaneous Thoughts:</strong><br />
+    <a href="http://micahredding.com/blog/2011/05/13/ancient-israelite-violence-and-the-morality-of-roadkill">Ancient Israelite Violence and The Morality of Roadkill</a><br />
+    <a href="http://micahredding.com/blog/2010/05/01/in-the-first-century">In the first century</a><br />
+    <a href="http://micahredding.com/blog/2010/05/01/two-thoughts-i-posted-to-twitter">How to understand the scriptures</a><br />
+    <br />
+    </div>
+
+
+
     <div class="fb-like" data-href="http://christianityagainstreligion.com/" data-send="true" data-layout="button_count" data-width="250" data-show-faces="true"></div>
+
+    </div>
+
+    <div id="articles">
+      <a class="buttons" href="/group">join discussion</a>
+      <a class="buttons" href="http://brickcaster.com/christianity">the podcast</a>
+
+        <h3>Recent Essays</h3>
+
+        <!--#include virtual="/rss2html/rss2html.php" -->
+
+        <a class="buttons" href="http://micahredding.com/blog/theology">...Read More...</a>
+    </div>
+
   </div>
 
-  <div id="articles">
-    <h1>Christianity <br />Against <br />Religion</h1>
-      <!--#include virtual="/rss2html/rss2html.php" -->
-
-    <a class="buttons" href="http://micahredding.com/blog/theology">...Read More Articles</a>
-  </div>
 
 </div>
 </body>
